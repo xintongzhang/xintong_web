@@ -1,0 +1,11 @@
+class CreateTwitters < ActiveRecord::Migration
+class CreateTwitterss < ActiveRecord::Migration
+  def change
+    create_table :twitters do |t|
+      t.string :person
+      t.string :quote
+
+      t.timestamps
+    end
+  end
+end

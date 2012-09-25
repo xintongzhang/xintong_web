@@ -1,4 +1,12 @@
 XintongWeb::Application.routes.draw do
+  resources :microposts
+
+  resources :friends
+
+  resources :users
+
+  resources :twitters
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
